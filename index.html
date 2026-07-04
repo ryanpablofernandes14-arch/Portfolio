@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ryan Pablo Fernandes | Portfólio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#0f172a;
+color:#fff;
+
+}
+
+nav{
+
+position:fixed;
+top:0;
+width:100%;
+background:#111827;
+padding:20px;
+display:flex;
+justify-content:center;
+gap:40px;
+z-index:999;
+
+box-shadow:0 0 20px rgba(0,0,0,.3);
+
+}
+
+nav a{
+
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#38bdf8;
+
+}
+
+header{
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:120px 10%;
+
+background:
+
+linear-gradient(135deg,#0f172a,#1e3a8a);
+
+}
+
+.hero{
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+gap:80px;
+
+flex-wrap:wrap;
+
+}
+
+.hero-text{
+
+flex:1;
+
+}
+
+.hero-text h1{
+
+font-size:60px;
+
+margin-bottom:10px;
+
+}
+
+.hero-text span{
+
+color:#38bdf8;
+
+}
+
+.hero-text h3{
+
+font-size:28px;
+
+margin-bottom:25px;
+
+color:#cbd5e1;
+
+}
+
+.hero-text p{
+
+font-size:18px;
+
+line-height:32px;
+
+max-width:650px;
+
+}
+
+.botao{
+
+display:inline-block;
+
+margin-top:40px;
+
+padding:16px 35px;
+
+background:#38bdf8;
+
+color:#08111f;
+
+border-radius:50px;
+
+font-weight:bold;
+
+text-decoration:none;
+
+transition:.3s;
+
+}
+
+.botao:hover{
+
+transform:scale(1.05);
+
+}
+
+.hero img{
+
+width:340px;
+
+height:340px;
+
+border-radius:50%;
+
+border:7px solid #38bdf8;
+
+object-fit:cover;
+
+box-shadow:0 0 40px rgba(56,189,248,.5);
+
+}
+
+section{
+
+padding:90px 10%;
+
+}
+
+.titulo{
+
+font-size:40px;
+
+text-align:center;
+
+margin-bottom:60px;
+
+color:#38bdf8;
+
+}
+
+.card{
+
+background:#1e293b;
+
+padding:35px;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+}
+
+.skill{
+
+background:#1e293b;
+
+padding:25px;
+
+border-left:5px solid #38bdf8;
+
+border-radius:15px;
+
+transition:.3s;
+
+}
+
+.skill:hover{
+
+transform:translateY(-8px);
+
+}
+
+.projeto{
+
+background:#1e293b;
+
+padding:30px;
+
+border-radius:20px;
+
+transition:.3s;
+
+}
+
+.projeto:hover{
+
+transform:translateY(-8px);
+
+}
+
+.projeto a{
+
+color:#38bdf8;
+
+text-decoration:none;
+
+}
+
+aside{
+
+background:#111827;
+
+padding:35px;
+
+border-radius:20px;
+
+}
+
+footer{
+
+background:#020617;
+
+text-align:center;
+
+padding:35px;
+
+margin-top:50px;
+
+}
+
+@media(max-width:900px){
+
+.hero{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+}
+
+.hero img{
+
+width:240px;
+
+height:240px;
+
+}
+
+.hero-text h1{
+
+font-size:42px;
+
+}
+
+nav{
+
+gap:15px;
+
+flex-wrap:wrap;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="#sobre">Sobre</a>
+
+<a href="#habilidades">Habilidades</a>
+
+<a href="#projetos">Projetos</a>
+
+<a href="#contato">Contato</a>
+
+</nav>
+
+<header>
+
+<div class="hero">
+
+<div class="hero-text">
+
+<h1>
+
+Ryan <span>Pablo Fernandes</span>
+
+</h1>
+
+<h3>
+
+Estudante de ADS • Estagiário de TI
+
+</h3>
+
+<p>
+
+Sou estudante de Análise e Desenvolvimento de Sistemas, atualmente atuando como Estagiário de TI.
+
+Minha experiência como ex-militar fortaleceu minha disciplina, responsabilidade e capacidade de trabalhar em equipe.
+
+Tenho paixão por tecnologia, desenvolvimento web, banco de dados e análise de dados, buscando criar soluções modernas e eficientes.
+
+</p>
+
+<a href="#projetos" class="botao">
+
+Conheça meus projetos
+
+</a>
+
+</div>
+
+<div>
+
+<img src="foto git.png" alt="Ryan Pablo Fernandes">
+
+</div>
+
+</div>
+
+</header>
+
+<section id="sobre">
+
+<h2 class="titulo">
+
+Sobre Mim
+
+</h2>
+
+<div class="card">
+
+<p>
+
+Meu objetivo é crescer profissionalmente na área de tecnologia, desenvolvendo aplicações que gerem impacto positivo. Atualmente curso Análise e Desenvolvimento de Sistemas na Unicesumar e trabalho como Estagiário de TI, atuando com suporte técnico, infraestrutura, documentação e participação em projetos. Além disso, possuo experiência em atendimento ao cliente, liderança de equipes e gestão de processos.
+
+</p>
+
+</div>
+
+</section><section id="habilidades">
+
+<h2 class="titulo">
+Habilidades
+</h2>
+
+<div class="grid">
+
+<div class="skill">
+<h3>💻 Desenvolvimento Web</h3>
+<p>HTML5, CSS3 e JavaScript.</p>
+</div>
+
+<div class="skill">
+<h3>🗄 Banco de Dados</h3>
+<p>SQL, modelagem e consultas.</p>
+</div>
+
+<div class="skill">
+<h3>⚙ Linguagem C</h3>
+<p>Algoritmos, estruturas de dados e lógica de programação.</p>
+</div>
+
+<div class="skill">
+<h3>📊 Power BI</h3>
+<p>Dashboards e análise de dados.</p>
+</div>
+
+<div class="skill">
+<h3>🖥 Suporte Técnico</h3>
+<p>Infraestrutura, manutenção e atendimento aos usuários.</p>
+</div>
+
+<div class="skill">
+<h3>📁 Git e GitHub</h3>
+<p>Versionamento de código e colaboração.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="projetos">
+
+<h2 class="titulo">
+Projetos
+</h2>
+
+<div class="grid">
+
+<article class="projeto">
+
+<h3>🏥 SecretMed</h3>
+
+<br>
+
+<p>
+Projeto desenvolvido para gerenciamento da área da saúde,
+utilizando tecnologias web com foco em organização,
+cadastro e praticidade.
+</p>
+
+<br>
+
+<p>
+
+<strong>GitHub</strong>
+
+<br><br>
+
+<a href="https://github.com/ryanpablofernandes14-arch/secretmed" target="_blank">
+
+github.com/ryanpablofernandes14-arch/secretmed
+
+</a>
+
+</p>
+
+</article>
+
+<article class="projeto">
+
+<h3>📦 Sistema de Controle de Estoque</h3>
+
+<br>
+
+<p>
+
+Projeto acadêmico desenvolvido em Linguagem C para cadastro,
+consulta e gerenciamento de produtos.
+
+</p>
+
+</article>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">
+
+Experiência
+
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Honda Blokton Motocar</h3>
+
+<br>
+
+<p>
+
+Estagiário de TI
+
+</p>
+
+<br>
+
+<p>
+
+• Suporte técnico
+
+<br>
+
+• Infraestrutura
+
+<br>
+
+• Documentação
+
+<br>
+
+• Participação em projetos
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Evolução Telecom</h3>
+
+<br>
+
+<p>
+
+Consultor Comercial / Supervisor
+
+</p>
+
+<br>
+
+<p>
+
+Atuação com prospecção, relacionamento com clientes,
+liderança de equipe e gestão de metas.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">
+
+Formação
+
+</h2>
+
+<div class="card">
+
+<p>
+
+🎓 Tecnólogo em Análise e Desenvolvimento de Sistemas
+
+<br>
+
+Unicesumar (Cursando)
+
+<br><br>
+
+📚 Cursos
+
+<br>
+
+• Power BI - Alura
+
+<br>
+
+• Analista de Dados - TEC JA
+
+<br>
+
+• Pacote Office
+
+</p>
+
+</div>
+
+</section>
+
+<section id="contato">
+
+<h2 class="titulo">
+
+Contato
+
+</h2>
+
+<aside>
+
+<h3>📧 Email</h3>
+
+<p>
+
+ryanpablofernandes14@gmail.com
+
+</p>
+
+<br>
+
+<h3>📱 Telefone</h3>
+
+<p>
+
+(41) 99843-1873
+
+</p>
+
+<br>
+
+<h3>💼 LinkedIn</h3>
+
+<p>
+
+<a
+href="https://www.linkedin.com/in/ryan-pablo-fernandes-4383aa358"
+target="_blank"
+style="color:#38bdf8;">
+
+linkedin.com/in/ryan-pablo-fernandes-4383aa358
+
+</a>
+
+</p>
+
+<br>
+
+<h3>🐱 GitHub</h3>
+
+<p>
+
+<a
+href="https://github.com/ryanpablofernandes14-arch"
+target="_blank"
+style="color:#38bdf8;">
+
+github.com/ryanpablofernandes14-arch
+
+</a>
+
+</p>
+
+</aside>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Ryan Pablo Fernandes
+
+</p>
+
+<br>
+
+<p>
+
+Desenvolvido com HTML5 e CSS3
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
